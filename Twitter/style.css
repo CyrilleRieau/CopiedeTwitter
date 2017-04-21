@@ -31,7 +31,7 @@ section {
     display : flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-image: url("/Twitter/images/risitas.png");
+    background-image: url("/CopiedeTwitter/Twitter/images/risitas.png");
     min-height: 100vh;
     min-width: 100%;
     position : fixed;
