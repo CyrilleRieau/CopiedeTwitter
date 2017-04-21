@@ -96,7 +96,7 @@ footer a {
     width : 156px;
 }
 .field1 {
-    background-color: red;
+    background-color: white;
 }
 .log {
     border-radius: 5px;
@@ -141,7 +141,7 @@ footer a {
    background-color: rgb(240, 120, 0); 
 }
 fieldset {
-    border-radius : 15px;
+    border-radius : 7px;
 }
 .sexy {
     margin-left :15%;
