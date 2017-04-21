@@ -52,16 +52,10 @@ p {
 }
 .form1 {
     margin-top:15%;
-    margin-left: 35px;
-}
+    }
 .form2 {
     margin-top: 10px;
-    margin-left: 35px;;
-}
-.formulaires {
-    align-self:flex-start;
-    margin-left: 15%;
-}
+    }
 .identifiant {
     color : grey;
 }
@@ -88,9 +82,10 @@ footer a {
     text-decoration: none;
     color : rgb(1,120,180);
 }
-.formligne {
+.formulaires {
     display : flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 15%;
 }
 #pwd {
     width : 156px;
@@ -144,7 +139,7 @@ fieldset {
     border-radius : 7px;
 }
 .sexy {
-    margin-left :15%;
+    align-self: center;
     margin-top:10px;
     width : 150px;
     height : 150px;
