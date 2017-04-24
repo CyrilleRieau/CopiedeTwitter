@@ -1,0 +1,82 @@
+#nomination {
+    display: flex;
+    flex-direction: column;
+    flex:wrap;
+}
+#label {
+    display :inline-block;
+    width: 10vw;
+    background-color: purple;
+    border: 2px solid yellow;
+    border-radius:5px;
+    text-align: center;
+    color : orchid;
+    min-width: 100px;
+}
+ul {
+    list-style: none;
+    margin-left :10vw;
+    padding:0px;
+    margin : 0px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input:not([type="radio"]) {
+    display: inline-block;
+    width : 15vw;
+}
+select {
+    display:inline-block;
+    width : 16.3vw;
+}
+fieldset {
+    margin:0px;
+    padding:0px;
+    border:none;
+    display:flex;
+    flex-direction:row;
+}
+body {
+    background-image: linear-gradient( 60deg, blue, orange);
+    position:fixed;
+    min-height: 100%;
+    color:white;
+}
+html {
+    height: 100%;
+}
+fieldset>ul>li {
+    color : #FFFF30;
+}
+#signup {
+    color: red;
+    background-color: #30F030;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style:italic;
+}
+#signup:hover{
+    background-color: sienna;
+    color:teal;
+}
+#signup:active {
+    background-color: green;
+    color : orangered;
+}
+#nom {
+    color: blue;
+}
+#prenom{
+    color:red;
+}
+#region {
+    color : green;
+}
+h1 {
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    color : olive;
+}

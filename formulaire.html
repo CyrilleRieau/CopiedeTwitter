@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/styleform.css" />
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Inscription</h1>
+     <form action="index.html" method="GET" id="nomination">
+     <section><label for="nom" id="label"> Nom :</label>
+            <input type="text" name="sectionseudo" id="nom" placeholder="Rieau"/></section>
+     <section><label for="prenom" id="label"> Prénom :</label>
+            <input type="text" name="Prenom" id="prenom" placeholder="Cyrille"/></section>
+     <section><label for="age" id="label"> Age :</label>
+            <input type="number" name="age" id="age" min="0" max="120"/></section>
+     <section><label for="region" id="label">Région :</label>
+           <select name="region" id="region">
+               <option value="hautsdefrance">Hauts-de-France</option>
+               <option value="grandest">Grand-Est</option>
+               <option value="iledefrance">Ile-de-France</option>
+               <option value="normandie">Normandie</option>
+               <option value="bretagne">Bretagne</option>
+               <option value="paysdelaloire">Pays de la Loire</option>
+               <option value="centrevaldeloire">Centre Val de Loire</option>
+               <option value="bourgognefranchecomte">Bourgogne-Franche-Comté</option>
+               <option value="auvergnerhonealpes">Auvergne-Rhône-Alpes</option>
+               <option value="nouvelleaquitaine">Nouvelle-Aquitaine</option>
+               <option value="occitanie">Occitanie</option>
+               <option value="provencealpescotedazur">Procence-Alpes-Côte d'Azur</option>
+               <option value="corse">Corse</option>
+               <option value="mayotte">Mayotte</option>
+               <option value="lareunion">La Réunion</option>
+               <option value="guyane">Guyane</option>
+               <option value="martinique">Martinique</option>
+               <option value="guadeloupe">Guadeloupe</option>
+            </select></section>
+        <section><label for="email" id="label">E-mail :</label>
+            <input type="email" id="email"/></section>
+        <fieldset><label for="genre" id="label" class="gender">Genre :</label>
+            <ul>
+                <li id="choix">
+                    <input type="radio" name="gender" value="cismale" id="cismale" />
+                        <label for="cismale">Cis-Male</label></li>
+                <li id="choix">
+                    <input type="radio" name="gender" value="cisfemale" id="cisfemale" />
+                        <label for="cisfemale">Cis-Female</label></li>
+                <li id="choix">
+                    <input type="radio" name="gender" value="genderfluid" id="genderfluid" />
+                        <label for="genderfluid">Gender Fluid</label></li>
+                <li id="choix"><input type="radio" name="gender" value="nonbinary" id="nonbinary" />
+                    <label for="nonbinary">Non-Binary</label></li>
+             </ul></section>        
+        </fieldset>
+        <section><label for="password" id="label"> Mot de Passe :</label>
+            <input type="password" name="password" id="password" placeholder="Mot de Passe"/></section>
+        <section><input type="submit" value="Envoyer" id="signup"/></section>   
+     </form>
+</body>
+</html>
