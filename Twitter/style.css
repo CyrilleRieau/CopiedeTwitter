@@ -1,11 +1,11 @@
-header {
+nav {
     background: white;
-   }
+}
 .tete {
     display: flex;
     flex-direction: row;
 }
-header a {
+nav a {
     margin-left: 10px;
      margin-right: 30px;
      padding-top: 10px;
@@ -13,8 +13,8 @@ header a {
      text-decoration: none;
      color: grey;
      font-size:0.8em;
-    }
-header a:hover{
+}
+nav a:hover{
     text-decoration: underline;
     color: rgb(1,109,180);
 }    
@@ -22,20 +22,19 @@ header a:hover{
     width:35px;
     height:25px;
     margin-left: 30px;
-    } 
+} 
 .langue {
     text-align: right;
     flex:3;
 }    
-section {
+main {
     display : flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-image: url("/CopiedeTwitter/Twitter/images/risitas.png");
-    min-height: 100vh;
-    min-width: 100%;
-    position : fixed;
-    }
+    background-image: url("images/risitas.png");
+    height: 100vh;
+    width: 100%;
+}
 h1 {
     font-family : Arial, 'Times New Roman', Times, serif;
     color: white;
@@ -50,9 +49,6 @@ p {
 .main h1 {
     margin-top : 10%;
 }
-.formula {
-    margin-top:10%;
-    }
 .formulb {
     margin-top: 10px;
     }
@@ -65,13 +61,14 @@ footer{
     align-items: center;
     position: absolute;
     bottom : 75px;
-    margin-left:75px}
+    margin-left:75px
+}
 footer a {
      text-decoration: none;
      color: white;
      font-size : 0.6em;
      margin:10px;
-     }
+}
 .style {
     font-size: 0.75em;
     color: grey;
@@ -86,6 +83,7 @@ footer a {
     display : flex;
     flex-direction: column;
     margin-left: 15%;
+    margin-top:10%;
 }
 #pwd {
     width : 156px;
@@ -93,27 +91,25 @@ footer a {
 .field1 {
     background-color: white;
 }
-.log {
+.loggin {
     border-radius: 5px;
     background-color: rgb(1,125,180);
     color:white;
     font-family: Arial, 'Times New Roman', Times, serif;
 }
-.log:hover {
+.loggin:hover {
     background-color: rgb(1,16,180);
 }
 .sign {
     color: grey;
 }
-.field2 {
+.new {
     background-color: white;
     padding-bottom:5px;
     border-bottom: 0px;
-}
-.new {
     color:black;
     margin: 0px 0px 0px 3px;
-    }
+}
 .field3 {
     background-color: white;
     border-top-style: solid 2px;
@@ -149,4 +145,4 @@ ul {
     flex-direction: row;
     list-style : none;
     margin : 5px;
-    }
+}

@@ -2,49 +2,46 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/CopiedeTwitter/Twitter/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>CopiedeTwitter</title>
 </head>
 <body>
-    <header>
+    <nav>
         <ul class="tete">
-            <li><img src="/CopiedeTwitter/Twitter/images/logo.png" alt="logo" title="Logo" class="logo"/></li>
+            <li><img src="images/logo.png" alt="logo" title="Logo" class="logo"/></li>
             <li><a href="https://twitter.com">Home</a></li>
             <li><a href="https://twitter.com/about">About</a></li>
             <li class="langue"><a href="https://twitter.com/?lang=en ">Langage : English</a></li>
         </ul>
-    </header>
-    <section>
+    </nav>
+    <main>
         <article class="main">
             <h1>Welcome to Twitter.</h1>
             <p>Connect with your friends — and other <br/>fascinating people. Get in-the-moment 
             updates <br/>on the things that interest you. And watch events <br/>unfold, in real time, 
             from every angle.</p>         
         </article>    
-        <aside class="formulaires">
-            <article class="formula">
-                <fieldset class="field1">
-                    <form method="POST" id="nomination">
-                        <input type="text" name="Pseudo" id="pseudo" placeholder="Phone, email or username"/><br/>
-                        <input type="password" name="pwd" placeholder="Password" id="pwd"/><input type="submit" value="Log In" class="log"/><br/>
-                        <input type="checkbox" name="choix" id="checkbox" checked /><label for="choix" class="style">Remember me . </label>
-                        <a href="https://twitter.com/account/begin_password_reset" class="rappel">Forgot password ?</a>
-                    </form>
-                </fieldset>
-            </article>
-            <article class="formulb" id="inscription">
-                <fieldset class="field2">
-                    <p class="new">New to Twitter ? <span class="sign">Sign up</span></p>
-                </fieldset>
-                <fieldset class="field3"> 
+        <aside class="formulaires">       
+                   <form method="POST" id="nomination">
+                        <fieldset class="field1">                                
+                            <input type="text" name="Pseudo" id="pseudo" placeholder="Phone, email or username"/><br/>
+                            <input type="password" name="pwd" placeholder="Password" id="pwd"/><input type="submit" value="Log In" class="loggin"/><br/>
+                            <input type="checkbox" name="choix" id="checkbox" checked /><label for="choix" class="style">Remember me . </label>
+                            <a href="https://twitter.com/account/begin_password_reset" class="rappel">Forgot password ?</a>
+                        </fieldset>
+                   </form>
+        <article class="formulb" id="inscription">
+                <p class="new">New to Twitter ? <span class="sign">Sign up</span>
+                </p>    
                     <form method="POST" class="form3">
-                        <input type="text" name="fullname" id="fullname" placeholder="Full name"/><br/>
-                        <input type="text" name="email" id="email" placeholder="Email"/><br/>
-                        <input type="text" name="passwd" id="passwd" placeholder="Password"/><br/>
-                        <input type="submit" value="Sign up for Twitter" id="signup"/><br/>
+                        <fieldset class="field3">
+                            <input type="text" name="fullname" id="fullname" placeholder="Full name"/><br/>
+                            <input type="text" name="email" id="email" placeholder="Email"/><br/>
+                            <input type="text" name="passwd" id="passwd" placeholder="Password"/><br/>
+                            <input type="submit" value="Sign up for Twitter" id="signup"/><br/>
+                        </fieldset>
                     </form>
-                </fieldset> 
-            </article>
+          </article>
         </aside>
         <footer>
             <ul>
@@ -65,6 +62,6 @@
                 <li><a>© 2017 Twitter</a></li>
             </ul>            
         </footer>
-    </section>  
+    </main>  
 </body>
 </html>
